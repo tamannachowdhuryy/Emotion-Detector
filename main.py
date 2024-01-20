@@ -1,6 +1,6 @@
 import cv2
 from deepface import DeepFace
-
+#https://github.com/serengil/deepface?tab=readme-ov-file
 face_cascade = cv2.CascadeClassifier("data/haarcascade_frontalface_default.xml")
 
 video = cv2.VideoCapture(0)
